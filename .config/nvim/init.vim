@@ -19,3 +19,6 @@ set number
 
 "mouse support
 set mouse=a
+
+"turn off search highlighting
+set nohlsearch
