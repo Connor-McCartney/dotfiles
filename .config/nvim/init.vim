@@ -25,3 +25,6 @@ set nohlsearch
 
 "no line wrapping
 set nowrap
+
+"how many lines away from top/bottom until it starts scrolling
+set scrolloff=8
