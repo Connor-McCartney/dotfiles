@@ -22,3 +22,6 @@ set mouse=a
 
 "turn off search highlighting
 set nohlsearch
+
+"no line wrapping
+set nowrap
