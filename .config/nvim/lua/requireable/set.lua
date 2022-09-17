@@ -11,4 +11,4 @@ vim.opt.mouse = "a"           --mouse support
 vim.opt.hlsearch = false      --disable search highlighting
 vim.opt.wrap = false          --disable line wrapping
 vim.opt.scrolloff = 10        --line from top/bottom until scrolling
-vim.cmd("nnoremap q: <nop>")  -- disable history popup
+vim.cmd("nnoremap q: <nop>")  --disable history popup
