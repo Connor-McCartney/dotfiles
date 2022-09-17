@@ -4,7 +4,6 @@ set shiftwidth=4
 set expandtab
 set termguicolors
 colorscheme desert 
-autocmd BufRead,BufNewFile *.sage setfiletype python
 set guicursor=
 set number
 set mouse=a
