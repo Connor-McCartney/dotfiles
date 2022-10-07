@@ -11,4 +11,4 @@ Useage:
 
 :LspInstall lua
 :LspInstall gopls   # or sudo dnf install golang-x-tools-gopls
-:LspInstall pyright   # or pip install pyright
+:LspInstall pylsp
