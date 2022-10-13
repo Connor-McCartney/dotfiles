@@ -1,0 +1,3 @@
+#https://github.com/python-lsp/python-lsp-server
+[pycodestyle]
+ignore = E501
