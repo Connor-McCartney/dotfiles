@@ -12,3 +12,9 @@ Useage:
 :LspInstall lua
 :LspInstall gopls   # or sudo dnf install golang-x-tools-gopls
 :LspInstall pylsp
+:LspInstall ltex
+
+
+LaTeX:
+- sudo dnf install texlive-scheme-full
+- shortcut to compile is \ll
