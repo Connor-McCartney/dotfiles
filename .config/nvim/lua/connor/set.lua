@@ -15,5 +15,12 @@ vim.opt.scrolloff = 10        --line from top/bottom until scrolling
 -- disable history popup
 vim.cmd("nnoremap q: <nop>")
 
+-- auto-compile LaTeX
+vim.cmd([[
+augroup latex
+    autocmd BufEnter *.tex VimtexCompile
+augroup en
+]])
 
-
+vim.g.vimtex_view_general_options = '--unique file:@pdf\\#src:@line@tex'
+vim.g.vimtex_view_general_viewer = 'okular'
