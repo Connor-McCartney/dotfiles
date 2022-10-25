@@ -13,6 +13,7 @@ Useage:
 :LspInstall gopls   # or sudo dnf install golang-x-tools-gopls
 :LspInstall pylsp
 :LspInstall ltex
+:LspInstall rust_analyzer
 
 
 LaTeX:
