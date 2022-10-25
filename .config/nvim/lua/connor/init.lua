@@ -24,15 +24,10 @@ lspconfig['sumneko_lua'].setup {
   },
 }
 
-lspconfig['pylsp'].setup {
-  capabilities = capabilities
-}
-lspconfig['gopls'].setup {
-  capabilities = capabilities
-}
-lspconfig['ltex'].setup {
-  capabilities = capabilities
-}
+lspconfig['pylsp'].setup {}
+lspconfig['gopls'].setup {}
+lspconfig['ltex'].setup {}
+lspconfig['rust_analyzer'].setup {}
 
 
 -- nvim-cmp
