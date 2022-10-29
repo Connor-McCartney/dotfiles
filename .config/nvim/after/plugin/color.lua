@@ -5,7 +5,7 @@ vim.g.sonokai_style = 'atlantis'
 
 vim.cmd("let g:sonokai_colors_override = {" ..  --  | H%|  | S%|  | V%|
 "'blue':   ['#00aaff', '110']," .. --blue            200    100    100
-"'purple': ['#9966ff', '203']," .. --purple          260    60     100
+"'purple': ['#9580ff', '203']," .. --purple          250    50     100
 "'red':    ['#66ffff', '176']," .. --aqua            180    60     100
 "'yellow': ['#ff66cc', '179']," .. --pink            320    60     100
 "'green':  ['#66ff66', '107']," .. --green           120    60     100
