@@ -1,7 +1,6 @@
 -- https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt
 vim.g.sonokai_transparent_background = false
 vim.g.sonokai_disable_italic_comment = true
-vim.g.sonokai_style = 'atlantis'
 
 vim.cmd("let g:sonokai_colors_override = {" ..  --  | H%|  | S%|  | V%|
 "'blue':   ['#00aaff', '110']," .. --blue            200    100    100
