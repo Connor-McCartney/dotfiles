@@ -9,7 +9,7 @@ Useage:
 * files are in  ~/.local/share/nvim/site/pack/packer/start/
 
 
-:LspInstall lua
+:LspInstall sumneko_lua
 :LspInstall gopls   # or sudo dnf install golang-x-tools-gopls
 :LspInstall pylsp
 :LspInstall ltex
