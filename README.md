@@ -1,6 +1,6 @@
 # dotfiles
 
-```
+```bash
 cd /tmp
 git clone https://github.com/Connor-McCartney/dotfiles
 mv dotfiles/.tex-templates ~/.tex-templates
