@@ -26,7 +26,7 @@ Color=101,0,0
 Color=255,84,84
 
 [Color2]
-Color=102,255,102
+Color=138,230,168
 
 [Color2Faint]
 Color=0,101,0
@@ -53,7 +53,7 @@ Color=0,0,101
 Color=84,84,255
 
 [Color5]
-Color=149,128,255
+Color=168,138,230
 
 [Color5Faint]
 Color=101,0,101
@@ -62,7 +62,7 @@ Color=101,0,101
 Color=255,84,255
 
 [Color6]
-Color=24,178,178
+Color=138,230,230
 
 [Color6Faint]
 Color=0,101,101
