@@ -29,5 +29,4 @@ string.format("'yellow': ['%s', '179'],", HSV2RGB(300, 0.40, 0.90)) .. --pink
 string.format("'bg0':    ['%s', '235'],", HSV2RGB(221, 0.25, 0.25)) .. --grey  #303540
 string.format("'fg':     ['%s', '250']}", HSV2RGB(0  , 0.00, 0.90)))   --white #e6e6e6
 
---vim.cmd("let g:sonokai_colors_override = {}")
 vim.cmd("colorscheme sonokai")
