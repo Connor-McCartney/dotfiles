@@ -16,7 +16,7 @@ local function HSV2RGB (h, s, v)
 end
 
 -- https://github.com/sainnhe/sonokai/blob/master/doc/sonokai.txt
-vim.g.sonokai_transparent_background = false
+vim.g.sonokai_transparent_background = true
 vim.g.sonokai_disable_italic_comment = true
 
 vim.cmd("let g:sonokai_colors_override = {" ..
