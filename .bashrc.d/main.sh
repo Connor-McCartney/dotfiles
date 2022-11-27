@@ -11,3 +11,7 @@ export PS1="\[\e[0;35m\]\n[\w]\[\[\e[m\] \[\e[0;37m\]\n\$\[\e[m\] "
 c() {
   cd "$1" && ls
 }
+
+
+# enable vi mode
+set -o vi
