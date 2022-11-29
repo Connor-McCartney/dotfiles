@@ -1,0 +1,16 @@
+[Windows]
+RollOverDesktops=false
+
+[Desktops]
+Id_1=i1
+Id_2=i2
+Id_3=i3
+Id_4=i4
+Id_5=i5
+Name_1=1
+Name_2=2
+Name_3=3
+Name_4=4
+Name_5=5
+Number=5
+Rows=1
