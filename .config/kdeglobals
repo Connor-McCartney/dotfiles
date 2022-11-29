@@ -1,2 +1,5 @@
+[KDE]
+LookAndFeelPackage=org.kde.breezedark.desktop
+
 [KDE Action Restrictions][$i] 
 run_command=false
