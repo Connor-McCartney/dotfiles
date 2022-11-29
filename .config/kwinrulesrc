@@ -13,7 +13,6 @@ types=1
 count=1
 rules=1
 
-
 [a8677721-6f59-4bc3-b3a1-02be1e7072f1]
 Description=Application settings for org.kde.konsole
 wmclass=konsole org.kde.konsole
