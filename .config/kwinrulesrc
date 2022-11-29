@@ -1,6 +1,10 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
+[General]
+count=1
+rules=1
+
 [1]
 Description=Gaps
 position=25,25
@@ -8,13 +12,3 @@ positionrule=3
 size=1870,990
 sizerule=3
 types=1
-
-[General]
-count=1
-rules=1
-
-[a8677721-6f59-4bc3-b3a1-02be1e7072f1]
-Description=Application settings for org.kde.konsole
-wmclass=konsole org.kde.konsole
-wmclasscomplete=true
-wmclassmatch=1
