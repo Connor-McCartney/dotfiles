@@ -1,0 +1,14 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Gaps
+position=25,25
+positionrule=3
+size=1870,990
+sizerule=3
+types=1
+
+[General]
+count=1
+rules=1
