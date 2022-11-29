@@ -1,0 +1,8 @@
+[Desktop Entry]
+DefaultProfile=Main.profile
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[TabBar]
+TabBarVisibility=AlwaysHideTabBar
