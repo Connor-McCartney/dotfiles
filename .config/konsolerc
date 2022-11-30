@@ -14,3 +14,6 @@ TabBarVisibility=AlwaysHideTabBar
 
 [UiSettings]
 ColorScheme=
+
+[KonsoleWindow]
+RemoveWindowTitleBarAndFrame=true
