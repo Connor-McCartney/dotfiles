@@ -14,6 +14,7 @@ mv dotfiles/.config/kglobalshortcutsrc ~/.config/kglobalshortcutsrc
 mv dotfiles/.config/kwinrc ~/.config/kwinrc
 mv dotfiles/.config/konsolerc ~/.config/konsolerc
 mv dotfiles/.config/kdeglobals ~/.config/kdeglobals
+mv dotfiles/.config/plasma-org.kde.plasma.desktop-appletsrc ~/.config/plasma-org.kde.plasma.desktop-appletsrc
 mv dotfiles/.bashrc.d ~/.bashrc.d
 mv dotfiles/.vimrc ~/.vimrc
 mv dotfiles/.tmux.conf ~/.tmux.conf
