@@ -25,7 +25,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/connor/.local/share/wallpapers/Mirage KDE Plasma Theme Wallpaper.png
+Image=/home/connor/.wallpapers/nebula.jpg
 SlidePaths=/home/connor/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][2]
