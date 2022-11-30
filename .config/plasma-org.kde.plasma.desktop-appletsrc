@@ -45,6 +45,11 @@ plugin=org.kde.plasma.digitalclock
 immutability=1
 plugin=org.kde.plasma.kickoff
 
+[Containments][2][Applets][3][Configuration]
+PreloadWeight=100
+popupHeight=512
+popupWidth=655
+
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
@@ -63,7 +68,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://browser
+launchers=preferred://browser,applications:discord.desktop,applications:org.kde.spectacle.desktop
 
 [Containments][2][Applets][6]
 immutability=1
