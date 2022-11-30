@@ -22,10 +22,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-ToolBoxButtonState=top
+ToolBoxButtonState=topcenter
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/connor/.wallpapers/nebula.jpg
+Image=/home/connor/.local/share/wallpapers/Mirage KDE Plasma Theme Wallpaper.png
 SlidePaths=/home/connor/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][2]
@@ -40,10 +40,6 @@ wallpaperplugin=org.kde.image
 [Containments][2][Applets][20]
 immutability=1
 plugin=org.kde.plasma.digitalclock
-
-[Containments][2][Applets][21]
-immutability=1
-plugin=org.kde.plasma.showdesktop
 
 [Containments][2][Applets][3]
 immutability=1
@@ -86,7 +82,7 @@ DialogHeight=84
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;20;21
+AppletOrder=3;4;5;6;7;20
 
 [Containments][8]
 activityId=
@@ -151,7 +147,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,Discover Notifier_org.kde.DiscoverNotifier
+extraItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume
 hiddenItems=org.kde.plasma.mediacontroller,Discover Notifier_org.kde.DiscoverNotifier
 knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
 shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement
