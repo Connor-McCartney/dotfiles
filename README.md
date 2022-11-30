@@ -10,7 +10,6 @@ rm -r ~/.tex-templates ~/.local/share/konsole ~/.config/nvim ~/.bashrc.d
 mv dotfiles/.tex-templates ~/.tex-templates
 mv dotfiles/.local/share/konsole ~/.local/share/konsole
 mv dotfiles/.config/nvim ~/.config/nvim
-mv dotfiles/.config/kwinrulesrc ~/.config/kwinrulesrc
 mv dotfiles/.config/kglobalshortcutsrc ~/.config/kglobalshortcutsrc
 mv dotfiles/.config/kwinrc ~/.config/kwinrc
 mv dotfiles/.config/konsolerc ~/.config/konsolerc
