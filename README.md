@@ -4,10 +4,11 @@
 cd /tmp
 git clone https://github.com/Connor-McCartney/dotfiles
 
-rm -r ~/.tex-templates ~/.local/share/konsole ~/.config/nvim ~/.bashrc.d
+rm -r ~/.tex-templates ~/.local/share/konsole ~/.config/nvim ~/.bashrc.d ~/wallpapers
 
 
 mv dotfiles/.tex-templates ~/.tex-templates
+mv dotfiles/wallpapers ~/wallpapers
 mv dotfiles/.local/share/konsole ~/.local/share/konsole
 mv dotfiles/.config/nvim ~/.config/nvim
 mv dotfiles/.config/kglobalshortcutsrc ~/.config/kglobalshortcutsrc
