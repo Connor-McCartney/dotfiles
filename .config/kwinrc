@@ -26,6 +26,7 @@ enableThreeColumnLayout=false
 enableTileLayout=false
 ignoreClass=spectacle
 ignoreRole=
+keepFloatAbove=false
 layoutPerActivity=false
 screenGapBottom=25
 screenGapLeft=25
