@@ -1,2 +1,6 @@
+[Containments][1]
+wallpaperplugin=org.kde.image
+
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/home/connor/.wallpapers/nebula.jpg
+SlidePaths=/home/connor/.local/share/wallpapers/,/usr/share/wallpapers/
