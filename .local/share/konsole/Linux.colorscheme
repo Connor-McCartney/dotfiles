@@ -94,6 +94,6 @@ Blur=false
 ColorRandomization=false
 Description=Linux Colors
 FillStyle=Tile
-Opacity=1
+Opacity=0.85
 Wallpaper=
 WallpaperOpacity=1
