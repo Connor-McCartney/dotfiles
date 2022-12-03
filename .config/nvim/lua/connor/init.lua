@@ -7,6 +7,10 @@ local vnoremap = Remap.vnoremap
 vnoremap("J", ":m '>+1<CR>gv=gv")
 vnoremap("K", ":m '<-2<CR>gv=gv")
 
+-- have same cursor position for ctrl-u and ctrl-d
+vnoremap("<C-d>", "<C-d>zz")
+vnoremap("<C-u>", "<C-u>zz")
+
 -- LSP
 require("nvim-lsp-installer").setup {}
 local lspconfig = require("lspconfig")
