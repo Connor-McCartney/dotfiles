@@ -28,7 +28,7 @@ lspconfig['sumneko_lua'].setup {
   },
 }
 
-lspconfig['pylsp'].setup {capabilities = capabilities}
+lspconfig['jedi_language_server'].setup {capabilities = capabilities}
 lspconfig['gopls'].setup {capabilities = capabilities}
 lspconfig['ltex'].setup {capabilities = capabilities}
 lspconfig['rust_analyzer'].setup {capabilities = capabilities}
