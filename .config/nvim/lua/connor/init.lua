@@ -11,6 +11,10 @@ vnoremap("K", ":m '<-2<CR>gv=gv")
 vnoremap("<C-d>", "<C-d>zz")
 vnoremap("<C-u>", "<C-u>zz")
 
+-- control c or yank copies to clipboard
+vim.cmd("set clipboard^=unnamed,unnamedplus")
+vnoremap("<C-c>", "\"+y")
+
 -- LSP
 require("nvim-lsp-installer").setup {}
 local lspconfig = require("lspconfig")
