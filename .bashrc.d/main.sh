@@ -14,6 +14,6 @@ c() {
 
 
 # enable vi mode
-set -o vi
+##set -o vi
 # fix vi mode breaking CTRL+L
-bind -m vi-insert "\C-l":clear-screen
+##bind -m vi-insert "\C-l":clear-screen
