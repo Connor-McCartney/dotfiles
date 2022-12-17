@@ -15,6 +15,9 @@ vnoremap("<C-u>", "<C-u>zz")
 vim.cmd("set clipboard^=unnamed,unnamedplus")
 vnoremap("<C-c>", "\"+y")
 
+-- x doesn't copy to buffer when deleting
+vim.keymap.set("x", "<leader>p", "\"_dP")
+
 -- LSP
 require("nvim-lsp-installer").setup {}
 local lspconfig = require("lspconfig")
