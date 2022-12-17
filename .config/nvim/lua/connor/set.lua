@@ -8,9 +8,10 @@ vim.opt.termguicolors = true
 vim.opt.guicursor = ""        --match terminal cursor
 vim.opt.nu = true             --line numbers
 vim.opt.mouse = "a"           --mouse support
-vim.opt.hlsearch = false      --disable search highlighting
+vim.opt.hlsearch = false      --disable search highlighting after searching
+vim.opt.incsearch = true      --highlight as you search
 vim.opt.wrap = false          --disable line wrapping
-vim.opt.scrolloff = 10        --line from top/bottom until scrolling
+vim.opt.scrolloff = 8         --line from top/bottom until scrolling
 
 -- disable history popup
 vim.cmd("nnoremap q: <nop>")
