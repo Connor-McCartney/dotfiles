@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
 
   use 'neovim/nvim-lspconfig'
   use 'VonHeikemen/lsp-zero.nvim'
+  use 'ray-x/lsp_signature.nvim'
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
 
