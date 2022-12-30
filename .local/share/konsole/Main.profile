@@ -1,7 +1,7 @@
 [Appearance]
 AntiAliasFonts=true
 ColorScheme=Linux
-Font=Iosevka Fixed SS03 Semibold,20,-1,5,63,0,0,0,0,0,Regular
+Font=Iosevka Fixed,18,-1,5,50,0,0,0,0,0
 TabColor=255,0,0
 
 [Cursor Options]
