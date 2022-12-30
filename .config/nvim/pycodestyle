@@ -1,3 +1,0 @@
-#https://github.com/python-lsp/python-lsp-server
-[pycodestyle]
-ignore = E501,E226,E227,E741
