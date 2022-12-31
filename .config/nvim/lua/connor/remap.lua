@@ -12,5 +12,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.cmd("set clipboard^=unnamed,unnamedplus")
 vim.keymap.set({"n", "v"}, "<C-c>", "\"+y")
 
--- prevent copying when deleting lines
+-- prevent copying when deleting 
 vim.keymap.set("n", "dd", "\"_dd")
+vim.keymap.set("n", "d", "\"_d")
