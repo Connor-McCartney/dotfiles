@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
   use 'williamboman/mason-lspconfig.nvim'
     
   use 'nvim-treesitter/nvim-treesitter'
+  use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
