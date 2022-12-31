@@ -14,4 +14,4 @@ vim.keymap.set({"n", "v"}, "<C-c>", "\"+y")
 
 -- prevent copying when deleting 
 vim.keymap.set("n", "dd", "\"_dd")
-vim.keymap.set("n", "d", "\"_d")
+vim.keymap.set("v", "d", "\"_d")
