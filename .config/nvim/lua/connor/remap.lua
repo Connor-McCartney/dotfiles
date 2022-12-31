@@ -11,3 +11,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- control c or yank copies to clipboard
 vim.cmd("set clipboard^=unnamed,unnamedplus")
 vim.keymap.set({"n", "v"}, "<C-c>", "\"+y")
+
+-- prevent copying when deleting lines
+vim.keymap.set("n", "dd", "\"_dd")
