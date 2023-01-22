@@ -19,5 +19,3 @@ mv dotfiles/.config/kscreenlockerrc ~/.config/kscreenlockerrc
 mv dotfiles/.bashrc.d ~/.bashrc.d
 mv dotfiles/.vimrc ~/.vimrc
 mv dotfiles/.tmux.conf ~/.tmux.conf
-
-rm -rf dotfiles
