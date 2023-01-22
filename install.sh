@@ -1,6 +1,4 @@
-cd /tmp
 git clone https://github.com/Connor-McCartney/dotfiles
-
 rm -r ~/.tex-templates ~/.local/share/konsole ~/.config/nvim ~/.bashrc.d ~/.wallpapers
 
 
