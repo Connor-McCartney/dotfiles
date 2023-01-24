@@ -2,6 +2,7 @@
 
 alias des="cd ~/Desktop"
 alias v=nvim
+alias ls="ls --color=auto"
 alias l="ls --color=auto"
 
 #normal/default green, directories aqua underlined, executables pink, .py orange
