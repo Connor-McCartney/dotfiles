@@ -5,7 +5,9 @@ require('connor.remap')
 require('nvim-treesitter.configs').setup {
   highlight = {
     -- :TSUpdate
-    -- :TSInstall python
+    -- :TSInstallInfo
+    -- :TSInstall python rust c cpp javascript typescript html css cmake dockerfile lua 
+    
     enable = {'python'},
   },
 }
