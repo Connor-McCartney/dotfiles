@@ -59,7 +59,7 @@ cmp.setup({
     mapping = cmp_mappings,
     experimental = { ghost_text = true },
     sources = cmp.config.sources({
-        { name = 'nvim_lsp', keyword_length = 1},
-        { name = 'buffer', keyword_length = 1},
+        { name = 'nvim_lsp', keyword_length = 2},
+        { name = 'buffer', keyword_length = 2},
     }),
 })
