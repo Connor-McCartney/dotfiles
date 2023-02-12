@@ -185,7 +185,3 @@ extraItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.m
 hiddenItems=org.kde.plasma.mediacontroller,Discover Notifier_org.kde.DiscoverNotifier,discord1,Discord
 knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.volume
 shownItems=org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.networkmanagement
-
-[ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/x.sage.py,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/x.sage,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/coppersmith.sage,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/key,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/B.sobj,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/2.pdf,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/1.pdf,0,d4181de8-b0c5-4843-bb30-99b6600ab81a,desktop:/analysis.docx,0,d4181de8-b0c5-4843-bb30-99b6600ab81a
