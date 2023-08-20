@@ -5,7 +5,7 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'pyright',
   'ltex',
-  'sumneko_lua',
+  'lua_ls',
   'rust_analyzer',
 })
 
