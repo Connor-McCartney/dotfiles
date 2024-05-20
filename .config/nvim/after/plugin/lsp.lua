@@ -1,7 +1,12 @@
 local lsp = require("lsp-zero")
 
+require("mason").setup({
+    PATH = "prepend", -- "skip" seems to cause the spawning error
+})
+
 lsp.preset("recommended")
 
+-- deprecated, use :MasonInstall 
 --lsp.ensure_installed({
 --  'pyright',
 --  'ltex',
@@ -9,16 +14,18 @@ lsp.preset("recommended")
 --  'rust_analyzer',
 --})
 
+
+-- deprecated
 -- Fix Undefined global 'vim'
-lsp.configure('lua_ls', {
-    settings = {
-        Lua = {
-            diagnostics = {
-                globals = { 'vim' }
-            }
-        }
-    }
-})
+--lsp.configure('lua_ls', {
+--    settings = {
+--        Lua = {
+--            diagnostics = {
+--                globals = { 'vim' }
+--            }
+--        }
+--    }
+--})
 
 lsp.set_preferences({
     suggest_lsp_servers = false,
