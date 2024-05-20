@@ -2,12 +2,12 @@ local lsp = require("lsp-zero")
 
 lsp.preset("recommended")
 
-lsp.ensure_installed({
-  'pyright',
-  'ltex',
-  'lua_ls',
-  'rust_analyzer',
-})
+--lsp.ensure_installed({
+--  'pyright',
+--  'ltex',
+--  'lua_ls',
+--  'rust_analyzer',
+--})
 
 -- Fix Undefined global 'vim'
 lsp.configure('lua_ls', {
