@@ -13,6 +13,9 @@ c() {
   cd "$1" && ls
 }
 
+s() {
+	sage "$1" && rm "${1}.py"
+}
 
 # enable vi mode
 ##set -o vi
