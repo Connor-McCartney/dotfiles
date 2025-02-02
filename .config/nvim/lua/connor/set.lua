@@ -13,6 +13,7 @@ vim.opt.incsearch = true      --highlight as you search
 vim.opt.wrap = false          --disable line wrapping
 vim.opt.scrolloff = 8         --line from top/bottom until scrolling
 vim.opt.cursorline = true     --highlight current line
+vim.opt.swapfile = false      --disable annoying swapfiles
 
 -- disable history popup
 vim.cmd("nnoremap q: <nop>")
